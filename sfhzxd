@@ -1,0 +1,8 @@
+{
+   RECT rc;
+   rc.left = ballX;
+   rc.top = ballY;
+   rc.right = ballX + bm.bmWidth;
+   rc.bottom = ballY + bm.bmHeight;
+   FillRect(hdc, &rc, (HBRUSH)(COLOR_BTNFACE+1));
+}
